@@ -1,0 +1,27 @@
+class EnvironmentSettings:
+    def __init__(self):
+        self.workspace_dir = '/data1/Code/liulei/ACMMM2023Extension/TBSI'    # Base directory for saving network checkpoints.
+        self.tensorboard_dir = '/data1/Code/liulei/ACMMM2023Extension/TBSI/tensorboard'    # Directory for tensorboard files.
+        self.pretrained_networks = '/data1/Code/liulei/ACMMM2023Extension/TBSI/pretrained_networks'
+        self.lasot_dir = '/data1/Datasets/Tracking/lasot'
+        self.got10k_dir = '/data1/Datasets/Tracking/got10k/train'
+        self.got10k_val_dir = '/data1/Datasets/Tracking/got10k/val'
+        self.lasot_lmdb_dir = '/data1/Datasets/Tracking/lasot_lmdb'
+        self.got10k_lmdb_dir = '/data1/Datasets/Tracking/got10k_lmdb'
+        self.trackingnet_dir = '/data1/Datasets/Tracking/trackingnet'
+        self.trackingnet_lmdb_dir = '/data1/Datasets/Tracking/trackingnet_lmdb'
+        self.coco_dir = '/data1/Datasets/Tracking/coco'
+        self.coco_lmdb_dir = '/data1/Datasets/Tracking/coco_lmdb'
+        self.lvis_dir = ''
+        self.sbd_dir = ''
+        self.imagenet_dir = '/data1/Datasets/Tracking/vid'
+        self.imagenet_lmdb_dir = '/data1/Datasets/Tracking/vid_lmdb'
+        self.lasher_train_dir = '/data1/Datasets/Tracking/LasHeR'
+        self.lasher_test_dir = '/data1/Datasets/Tracking/LasHeR'
+        self.imagenetdet_dir = ''
+        self.ecssd_dir = ''
+        self.hkuis_dir = ''
+        self.msra10k_dir = ''
+        self.davis_dir = ''
+        self.youtubevos_dir = ''
+        self.UAV_RGBT_dir = '/data1/Datasets/Tracking/VTUAV'
